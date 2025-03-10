@@ -49,10 +49,9 @@ print("✅ Sample Chunk:", chunks[0])  # Show first chunk
 🚀 Step 4: Generate Sentence Embeddings
 We use Sentence Transformers to convert each chunk into an embedding vector.
 
-from sentence_transformers import SentenceTransformer
-
 # Load a sentence embedding model
 ```
+from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("all-MiniLM-L6-v2")  # Small, fast & good accuracy
 
 def generate_embedding(text):
