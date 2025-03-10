@@ -9,10 +9,11 @@ Run this in your terminal:
 ```
 pip install pypdf langchain sentence-transformers pymongo
 ```
-pypdf → Extracts text from PDFs
-langchain.text_splitter → Chunks text into sentences
-sentence-transformers → Converts text into embeddings
-pymongo → Stores embeddings in MongoDB
+pypdf → Extracts text from PDFs <br>
+langchain.text_splitter → Chunks text into sentences <br>
+sentence-transformers → Converts text into embeddings <br>
+pymongo → Stores embeddings in MongoDB <br>
+
 🚀 Step 2: Extract Text from PDFs
 We use pypdf to read the text from each PDF file.
 ```
