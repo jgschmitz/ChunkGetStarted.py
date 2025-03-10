@@ -84,8 +84,8 @@ def insert_into_mongodb(chunks):
 
 # Example: Insert the extracted chunks
 insert_into_mongodb(chunks)
-🚀 Step 6: Run a Vector Search in MongoDB
 ```
+🚀 Step 6: Run a Vector Search in MongoDB
 Now that embeddings are stored in MongoDB, we can run a similarity search.
 ```
 def search_similar_chunks(query):
