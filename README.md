@@ -1,4 +1,4 @@
-# ChunkGetStarted.py
+# ChunkGetStarted
 1️⃣ Extracting text from PDFs <br>
 2️⃣ Chunking the text into meaningful sections <br>
 3️⃣ Generating sentence embeddings for each chunk <br>
